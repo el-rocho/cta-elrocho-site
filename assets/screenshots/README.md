@@ -1,9 +1,10 @@
-# Capturas pendientes
+# Capturas publicadas
 
-El diseño reserva dos composiciones:
+Imágenes utilizadas por la portada:
 
-1. `individual.webp`: vista vertical de la edición individual.
-2. `servidor.webp` y `cliente.webp`: escritorio del servidor y vista móvil del cliente.
+1. `offline-nueva-medicion.png`: formulario de la edición individual offline.
+2. `offline-evolucion-anual.png`: gráfica de evolución de la edición individual.
+3. `servidor-nueva-medicion.png`: formulario de la edición con servidor autoalojado.
 
 Recomendaciones:
 

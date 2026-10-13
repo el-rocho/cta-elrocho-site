@@ -18,11 +18,18 @@ Después, abre `http://127.0.0.1:8080`.
 
 ## Capturas
 
-Las imágenes definitivas se guardarán en `assets/screenshots/`. Antes de publicarlas hay que comprobar que no contienen nombres, mediciones ni otros datos personales.
+Las capturas publicadas se guardan en `assets/screenshots/`. Antes de incorporar nuevas imágenes hay que comprobar que no contienen nombres ni otros datos personales identificables.
 
 ## Publicación
 
 GitHub Pages publica directamente el contenido de la raíz de `main`.
+
+Dominios previstos:
+
+- `cta.elrocho.es`: portada del ecosistema.
+- `offline.cta.elrocho.es`: edición individual offline.
+
+No debe añadirse un archivo `CNAME` hasta que se coordine el cambio DNS, porque `cta.elrocho.es` continúa sirviendo la instalación autoalojada actual.
 
 ## Licencia
 
