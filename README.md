@@ -22,7 +22,7 @@ Las imágenes definitivas se guardarán en `assets/screenshots/`. Antes de publi
 
 ## Publicación
 
-Cada cambio enviado a `main` se publica automáticamente mediante GitHub Actions y GitHub Pages.
+GitHub Pages publica directamente el contenido de la raíz de `main`.
 
 ## Licencia
 
