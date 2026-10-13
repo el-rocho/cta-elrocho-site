@@ -22,14 +22,16 @@ Las capturas publicadas se guardan en `assets/screenshots/`. Antes de incorporar
 
 ## Publicación
 
-GitHub Pages publica directamente el contenido de la raíz de `main`.
+GitHub Pages publica directamente el contenido de la raíz de `main` en:
 
-Dominios previstos:
+- [https://cta.elrocho.es/](https://cta.elrocho.es/)
 
-- `cta.elrocho.es`: portada del ecosistema.
+Dominios del ecosistema:
+
+- `cta.elrocho.es`: portada.
 - `offline.cta.elrocho.es`: edición individual offline.
-
-No debe añadirse un archivo `CNAME` hasta que se coordine el cambio DNS, porque `cta.elrocho.es` continúa sirviendo la instalación autoalojada actual.
+- `cliente.cta.elrocho.es`: cliente PWA para el servidor.
+- `servidor-cta.elrocho.es`: instalación autoalojada.
 
 ## Licencia
 
