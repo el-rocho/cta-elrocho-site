@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Control Tensión Arterial: aplicaciones privadas y de código abierto para registrar, analizar y conservar tus mediciones.">
+  <meta name="theme-color" content="#f4f6fc" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0f19" media="(prefers-color-scheme: dark)">
+  <meta property="og:title" content="Control Tensión Arterial">
+  <meta property="og:description" content="Elige entre la edición individual offline o un sistema autoalojado y multiusuario.">
+  <meta property="og:type" content="website">
+  <title>Control Tensión Arterial</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Control Tensión Arterial, inicio">
+      <picture>
+        <source srcset="assets/logo-dark.svg" media="(prefers-color-scheme: dark)">
+        <img src="assets/logo.svg" alt="" width="42" height="42">
+      </picture>
+      <span>Control Tensión Arterial</span>
+    </a>
+    <nav aria-label="Navegación principal">
+      <a href="#ediciones">Ediciones</a>
+      <a href="#comparativa">Comparativa</a>
+      <a href="#instalacion">Instalación</a>
+      <a href="https://github.com/el-rocho" rel="noreferrer">GitHub</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">
+      <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z"/></svg>
+    </button>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">Privacidad · Código abierto · Sin suscripciones</p>
+        <h1>Tus mediciones.<br><span>Bajo tu control.</span></h1>
+        <p class="hero-intro">Un ecosistema de aplicaciones para registrar y analizar la tensión arterial sin entregar tus datos a terceros. Úsalo completamente offline o instala tu propio servidor familiar.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#ediciones">Elegir una edición</a>
+          <a class="button secondary" href="https://github.com/el-rocho" rel="noreferrer">Ver el código</a>
+        </div>
+        <ul class="trust-list" aria-label="Características generales">
+          <li>Datos privados</li>
+          <li>Español e inglés</li>
+          <li>Android y web</li>
+          <li>Licencia MIT</li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-label="Vista previa pendiente de la aplicación">
+        <div class="device device-back" aria-hidden="true">
+          <div class="device-screen muted-screen">
+            <span class="mini-label">Evolución</span>
+            <div class="chart-placeholder"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+        <div class="device device-front">
+          <div class="device-bar" aria-hidden="true"></div>
+          <div class="device-screen">
+            <picture class="device-logo">
+              <source srcset="assets/logo-dark.svg" media="(prefers-color-scheme: dark)">
+              <img src="assets/logo.svg" alt="" width="58" height="58">
+            </picture>
+            <p class="device-title">Nueva medición</p>
+            <div class="reading"><span>Sistólica</span><strong>120</strong><small>mmHg</small></div>
+            <div class="reading blue"><span>Diastólica</span><strong>80</strong><small>mmHg</small></div>
+            <div class="pulse"><span>Pulso</span><b>60 lpm</b></div>
+            <span class="device-button">Guardar medición</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="principles" aria-label="Principios del proyecto">
+      <p><strong>Sin nube obligatoria.</strong> Tú eliges dónde permanecen los datos.</p>
+      <p><strong>Sin cuenta comercial.</strong> No hay publicidad, rastreadores ni cuotas.</p>
+      <p><strong>Sin cajas negras.</strong> Código disponible para revisar y adaptar.</p>
+    </section>
+
+    <section class="section editions" id="ediciones">
+      <div class="section-heading">
+        <p class="eyebrow">Tres piezas, dos formas de uso</p>
+        <h2>Elige según tu forma de trabajar</h2>
+        <p>La edición individual funciona por sí sola. Para compartir un servidor privado entre varias personas, combina el servidor autoalojado con la aplicación cliente.</p>
+      </div>
+
+      <article class="edition edition-featured">
+        <div class="edition-copy">
+          <p class="edition-number">01 · La opción sencilla</p>
+          <h3>Individual offline</h3>
+          <p class="edition-lead">Para una persona que quiere empezar sin cuentas, sin servidor y sin conexión.</p>
+          <ul>
+            <li>Los datos permanecen en el dispositivo</li>
+            <li>Aplicación Android y PWA instalable</li>
+            <li>Historial, gráficas, estadísticas e informes</li>
+            <li>Copias completas y exportación PDF/CSV</li>
+          </ul>
+          <div class="edition-actions">
+            <a class="button primary" href="https://el-rocho.github.io/cta-elrocho/">Abrir la PWA</a>
+            <a class="text-link" href="https://github.com/el-rocho/cta-elrocho/releases/latest">Descargar APK <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <figure class="screenshot-slot" data-screenshot="individual">
+          <div class="screenshot-placeholder">
+            <span>Captura de la edición individual</span>
+            <small>Se incorporará una imagen real de la interfaz</small>
+          </div>
+          <figcaption>Registro, historial y análisis en el mismo dispositivo.</figcaption>
+        </figure>
+      </article>
+
+      <div class="selfhosted-group">
+        <div class="group-intro">
+          <p class="edition-number">02 + 03 · La opción compartida</p>
+          <h3>Tu servidor, tus usuarios</h3>
+          <p>Una instalación privada centraliza las cuentas y mediciones. Cada persona accede desde el navegador o desde su aplicación cliente.</p>
+        </div>
+
+        <div class="edition-pair">
+          <article class="compact-edition">
+            <div class="compact-heading">
+              <span class="product-label">Servidor</span>
+              <h4>Autoalojado</h4>
+            </div>
+            <p>Servidor multiusuario con Docker, SQLite, administración familiar y autenticación 2FA.</p>
+            <ul>
+              <li>Datos en tu servidor o NAS</li>
+              <li>Cuentas independientes</li>
+              <li>Copias de toda la instalación</li>
+            </ul>
+            <a class="text-link" href="https://github.com/el-rocho/cta-elrocho-selfhosted">Ver instalación <span aria-hidden="true">→</span></a>
+          </article>
+
+          <article class="compact-edition">
+            <div class="compact-heading">
+              <span class="product-label blue-label">Aplicación</span>
+              <h4>Cliente Android y PWA</h4>
+            </div>
+            <p>La interfaz móvil para conectarse de forma segura a una instalación autoalojada existente.</p>
+            <ul>
+              <li>Conexión mediante HTTPS</li>
+              <li>Android, teléfono y tableta</li>
+              <li>Experiencia completa de la aplicación</li>
+            </ul>
+            <div class="compact-links">
+              <a class="text-link" href="https://el-rocho.github.io/cta-elrocho-client-app/">Abrir PWA <span aria-hidden="true">→</span></a>
+              <a class="text-link muted-link" href="https://github.com/el-rocho/cta-elrocho-client-app/releases/latest">APK</a>
+            </div>
+          </article>
+        </div>
+
+        <figure class="screenshot-slot screenshot-wide" data-screenshot="servidor-cliente">
+          <div class="screenshot-placeholder">
+            <span>Capturas del servidor y del cliente</span>
+            <small>El diseño admite una composición de escritorio y móvil</small>
+          </div>
+          <figcaption>La misma experiencia, con los datos centralizados bajo tu control.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section comparison" id="comparativa">
+      <div class="section-heading compact-heading-section">
+        <p class="eyebrow">Comparativa</p>
+        <h2>Una decisión sencilla</h2>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Necesidad</th><th>Individual offline</th><th>Servidor + cliente</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>Personas</th><td>Una</td><td>Varias, con cuentas separadas</td></tr>
+            <tr><th>Infraestructura</th><td>Ninguna</td><td>Docker en servidor o NAS</td></tr>
+            <tr><th>Conexión</th><td>No es necesaria</td><td>Red local o HTTPS</td></tr>
+            <tr><th>Ubicación de datos</th><td>Dispositivo</td><td>Servidor propio</td></tr>
+            <tr><th>Acceso web</th><td>PWA</td><td>Navegador o PWA cliente</td></tr>
+            <tr><th>Android</th><td>APK individual</td><td>APK cliente</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section installation" id="instalacion">
+      <div class="section-heading">
+        <p class="eyebrow">Instalación y actualizaciones</p>
+        <h2>Elige cómo instalarlo</h2>
+      </div>
+      <div class="install-options">
+        <article>
+          <span class="install-kicker">Navegador</span>
+          <h3>PWA</h3>
+          <p>Ábrela desde un navegador compatible y añádela a la pantalla de inicio.</p>
+          <a class="text-link" href="https://el-rocho.github.io/cta-elrocho/">Edición individual <span aria-hidden="true">→</span></a>
+        </article>
+        <article>
+          <span class="install-kicker">Android</span>
+          <h3>APK u Obtainium</h3>
+          <p>Descarga la versión publicada o utiliza Obtainium para recibir actualizaciones.</p>
+          <a class="text-link" href="https://github.com/el-rocho/cta-elrocho/releases/latest">Última versión <span aria-hidden="true">→</span></a>
+        </article>
+        <article>
+          <span class="install-kicker">Servidor o NAS</span>
+          <h3>Docker Compose</h3>
+          <p>Despliega el servidor multiusuario y conserva la base de datos en tu infraestructura.</p>
+          <a class="text-link" href="https://github.com/el-rocho/cta-elrocho-selfhosted#instalaci%C3%B3n-r%C3%A1pida-con-docker-compose">Instrucciones <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="closing">
+      <picture>
+        <source srcset="assets/logo-dark.svg" media="(prefers-color-scheme: dark)">
+        <img src="assets/logo.svg" alt="" width="72" height="72">
+      </picture>
+      <div>
+        <p class="eyebrow">Proyecto libre y transparente</p>
+        <h2>La salud es personal.<br>Los datos también deberían serlo.</h2>
+      </div>
+      <a class="button primary" href="https://github.com/el-rocho">Explorar en GitHub</a>
+    </section>
+
+    <aside class="medical-note">
+      <strong>Aviso sanitario:</strong> las clasificaciones, estadísticas y objetivos mostrados por las aplicaciones son informativos. No sustituyen el diagnóstico ni las indicaciones de un profesional sanitario.
+    </aside>
+  </main>
+
+  <footer>
+    <div>
+      <strong>Control Tensión Arterial</strong>
+      <p>Software libre para conservar el control de tus datos.</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/el-rocho/cta-elrocho">Individual</a>
+      <a href="https://github.com/el-rocho/cta-elrocho-selfhosted">Servidor</a>
+      <a href="https://github.com/el-rocho/cta-elrocho-client-app">Cliente</a>
+      <a href="https://github.com/el-rocho/cta-elrocho-site">Código de esta web</a>
+    </div>
+    <p class="copyright">Licencia MIT · Sin rastreadores</p>
+  </footer>
+</body>
+</html>
