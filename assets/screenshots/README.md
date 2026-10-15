@@ -1,14 +1,14 @@
 # Capturas publicadas
 
-Imágenes utilizadas por la portada:
+Imágenes utilizadas por la portada, una por edición y en formato de pantalla principal:
 
-1. `offline-pantalla-completa.png`: pantalla principal de la edición individual offline, con el registro de una medición, la evolución, la tendencia y el historial.
-2. `servidor-nueva-medicion.png`: formulario de la edición con servidor autoalojado.
+1. `offline-pantalla-completa.png`: edición individual offline, con el registro de una medición, la evolución, la tendencia y el historial.
+2. `servidor-pantalla-completa.png`: edición con servidor autoalojado, con las mismas secciones y el estado del servidor en la cabecera.
 
 Recomendaciones:
 
 - usar datos de demostración, nunca datos personales;
 - formato PNG o WebP;
-- mínimo 1200 px en el lado largo;
-- tema claro preferentemente, o aportar también variantes oscuras;
+- ancho de captura entre 700 y 900 px, suficiente para leerse a tamaño de tarjeta sin lastrar la carga;
+- tema claro u oscuro, el que corresponda a la edición capturada;
 - ocultar barra de direcciones, notificaciones e identificadores del dispositivo.
