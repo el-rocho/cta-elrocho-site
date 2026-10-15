@@ -2,9 +2,8 @@
 
 Imágenes utilizadas por la portada:
 
-1. `offline-nueva-medicion.png`: formulario de la edición individual offline.
-2. `servidor-evolucion-tendencia.png`: gráfica completa de evolución, tendencia y patrón.
-3. `servidor-nueva-medicion.png`: formulario de la edición con servidor autoalojado.
+1. `offline-pantalla-completa.png`: pantalla principal de la edición individual offline, con el registro de una medición, la evolución, la tendencia y el historial.
+2. `servidor-nueva-medicion.png`: formulario de la edición con servidor autoalojado.
 
 Recomendaciones:
 
