@@ -18,7 +18,9 @@ Después, abre `http://127.0.0.1:8080`.
 
 ## Capturas
 
-Las capturas publicadas se guardan en `assets/screenshots/`. Antes de incorporar nuevas imágenes hay que comprobar que no contienen nombres ni otros datos personales identificables.
+Las capturas publicadas se guardan en `assets/screenshots/`, una por edición. Antes de incorporar nuevas imágenes hay que comprobar que no contienen nombres ni otros datos personales identificables.
+
+La cabecera usa además `assets/hero-aplicacion.webp`: la captura inclinada de la pantalla principal, en WebP con transparencia (77 KB frente a los 393 KB del PNG original, sin diferencia visible).
 
 ## Publicación
 
